@@ -1,9 +1,9 @@
-anterior = 0
-proximo = 0
+previous = 0
+nextVal = 0
 
-while(proximo < 50):
-  print(proximo)
-  proximo = proximo + anterior
-  anterior = proximo - anterior
-   if(proximo == 0):
-    proximo = proximo + 1
+while(nextVal < 50):
+  print(nextVal)
+  nextVal = nextVal + previous
+  previous = nextVal - previous
+  if(nextVal == 0):
+    nextVal = nextVal + 1
